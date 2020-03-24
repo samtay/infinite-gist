@@ -131,7 +131,7 @@ var radius;
 window.onload = function() {
 
     // Read the data set.
-    d3.csv("./infinite-jest.csv", function(d) {
+    d3.csv("/infinite-gist/infinite-jest.csv", function(d) {
 
         visualize(parseData(d));
     });
