@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #666666;
+    overflow: hidden;
+}
+
+a {
+    color: #003399;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.active {
+    color: #6699ff;
+}
+
+circle {
+    fill: #999999;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+line.tickLine {
+    stroke: #999999;
+}
+
+text {
+    font-family: sans-serif;
+    font-size: 9px;
+    fill: #999999;
+}
+
+#infobox {
+    position: absolute;
+    height: auto;
+    padding: 8px;
+    display: none;
+    background: #eeeeee;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.title {
+    color: #000000;
+    font-weight: bold;
+}
